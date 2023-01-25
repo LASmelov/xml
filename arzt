@@ -37,3 +37,44 @@
 </department>
 </Bookstore>
 </staff>
+
+
+kt2, с пространством имен
+<?xml version="1.0" encoding="UTF-8"?>
+
+<staff>
+<Bookstore>
+<department>
+<id xmlns= "http://ithub.ru/catalog/department/id">98374</id>
+<name xmlns= "http://ithub.ru/catalog/department/name">number1</name>
+<collegua>
+<id xmlns= "http://ithub.ru/catalog/collegua">324</id>
+<colleguaName>Иван Иванов</colleguaName>
+<post>Продавец</post>
+</collegua>
+<book>
+
+<name xmlns= "http://ithub.ru/catalog/book/name">HarryPoter</name>
+<DataMade>1992</DataMade>
+<NumberPages>450</NumberPages>
+
+<genre>
+<id xmlns= "http://ithub.ru/catalog/genre/id">23</id>
+<name xmlns= "http://ithub.ru/catalog/genre/name">Fantastic</name>
+</genre>
+<autor>
+<id xmlns= "http://ithub.ru/catalog/autor/id">394679</id>
+<name xmlns= "http://ithub.ru/catalog/autor/name">DgoanRoulling</name>
+</autor>
+<position>
+<id xmlns= "http://ithub.ru/catalog/position/id">85486</id>
+<name xmlns= "http://ithub.ru/catalog/position/name">GreatBritain</name>
+</position>
+<publitionHouse>
+<id xmlns= "http://ithub.ru/catalog/publitionHouse/id">8794589</id>
+<name xmlns= "http://ithub.ru/catalog/publitionHouse/name">Mahaon</name>
+</publitionHouse>
+</book>
+</department>
+</Bookstore>
+</staff>
