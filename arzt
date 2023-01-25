@@ -1,0 +1,39 @@
+1. kt2
+<?xml version="1.0" encoding="UTF-8"?>
+
+<staff>
+<Bookstore>
+<department>
+<id>98374</id>
+<name>number1</name>
+<collegua>
+<id>324</id>
+<colleguaName>Иван Иванов</colleguaName>
+<post>Продавец</post>
+</collegua>
+<book>
+
+<name>HarryPoter</name>
+<DataMade>1992</DataMade>
+<NumberPages>450</NumberPages>
+
+<genre>
+<id>23</id>
+<name>Fantastic</name>
+</genre>
+<autor>
+<id>394679</id>
+<name>DgoanRoulling</name>
+</autor>
+<position>
+<id>85486</id>
+<name>GreatBritain</name>
+</position>
+<publitionHouse>
+<id>8794589</id>
+<name>Mahaon</name>
+</publitionHouse>
+</book>
+</department>
+</Bookstore>
+</staff>
