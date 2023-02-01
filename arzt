@@ -78,3 +78,16 @@ kt2, с пространством имен
 </department>
 </Bookstore>
 </staff>
+
+kt 3 DTD
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DOCTYPE catalog{
+<!ELEMENT catalog (book+)>
+<!ELEMENT catalog(#PCDATA)>
+<!ELEMENT book(title+, autor+, price+, publisher*)>
+<!ELEMENT title(#PCDATA)>
+<!ELEMENT autor(#PCDATA)>
+<!ELEMENT price(#PCDATA)>
+<!ELEMENT publisher(#PCDATA)>
+ }>
