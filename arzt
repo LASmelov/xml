@@ -91,3 +91,32 @@ kt 3 DTD
 <!ELEMENT price(#PCDATA)>
 <!ELEMENT publisher(#PCDATA)>
  }>
+ 
+ 
+ 
+ kt2 xml
+ 
+ <?xml version="1.0" encoding="UTF-8"?>
+<notebook xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<offices>
+		<office>майкрософт</office>
+		<office code ="9834"></office>
+	</offices>
+	<person id="98987"
+	        office ="9834">
+		<name>
+			<first>Иван</first>
+			<surname>Иванов</surname>
+		</name>
+		<address>
+			<city>Москва</city>
+			<street>Улица Комарова 3</street>
+			<index>873443</index>
+		</address>
+		<phones>
+			<phone type = "work|home">872-09-85</phone>
+		</phones>
+	</person>
+</notebook>
+
+
